@@ -1,0 +1,28 @@
+ejercicio_3
+1)Inicio
+2)	Definicion
+3)    	  Definir nota1, nota2, nota3, nota4, promedio como Real
+4)        Escribir("Ingrese las 4 notas que desea promediar: ")
+5)    	  Leer nota1
+6)    	  Leer nota2
+7)    	  Leer nota3
+8)    	  Leer nota4
+9)    	  promedio = CalcularPromedio(nota1, nota2, nota3, nota4)
+10)    	  Escribir("Promedio: ", promedio)
+11)          Si promedio <= 5 Entonces
+12)            Escribir("El promedio es regular")
+13)          FinSi
+14)          Si promedio > 5 y promedio <= 8 Entonces
+15)            Escribir("El promedio es bueno")
+16)          FinSi
+17)
+18)          Si promedio > 8 y promedio <= 9 Entonces
+19)            Escribir("El promedio es muy bueno")
+20)          FinSi
+21)          Si promedio > 9 y promedio <= 10 Entonces
+22)            Escribir("El promedio es Sobresaliente")
+23)          FinSi
+24)Fin
+25)Funcion CalcularPromedio(a, b, c, d)
+26)    retorno ((a + b + c + d) / 4)
+27)FinFuncion

@@ -1,0 +1,45 @@
+ejercicio_1
+1)Inicio
+2)    Entero: elementos = 3
+3)    Entero: matriz[elementos][elementos]
+4)    GenerarMatriz(matriz)
+5)    Escribir("Elementos pares de la Matriz: ")
+6)    ElementosPares(matriz)
+7)    Escribir("Elementos Impares de la Matriz: ")
+8)    ElementosImpares(matriz)
+9)Fin
+10)Funcion GenerarMatriz(matriz)
+11)    Para i desde 0 hasta longitud(matriz) - 1 Hacer
+12)        Para j desde 0 hasta longitud(matriz) - 1 Hacer
+13)            matriz[i][j] = NumeroAleatorioEntre(1, 10)
+14)        FinPara
+15)    FinPara
+16)
+17)    Escribir("MATRIZ: ")
+18)    Para i desde 0 hasta longitud(matriz) - 1 Hacer
+19)        Para j desde 0 hasta longitud(matriz) - 1 Hacer
+20)            Escribir(matriz[i][j])
+21)        FinPara
+22)        Escribir("")
+23)    FinPara
+24)FinFuncion
+25)Funcion ElementosPares(matriz)
+26)    Para i desde 0 hasta longitud(matriz) - 1 Hacer
+27)        Para j desde 0 hasta longitud(matriz) - 1 Hacer
+28)            Si matriz[i][j] mod 2 = 0 Entonces
+29)                Escribir(matriz[i][j])
+30)            FinSi
+31)        FinPara
+32)        Escribir("")
+33)    FinPara
+34)FinFuncion
+35)Funcion ElementosImpares(matriz)
+36)    Para i desde 0 hasta longitud(matriz) - 1 Hacer
+37)        Para j desde 0 hasta longitud(matriz) - 1 Hacer
+38)            Si matriz[i][j] mod 2 ≠ 0 Entonces
+39)                Escribir(matriz[i][j])
+40)            FinSi
+41)        FinPara
+42)        Escribir("")
+43)    FinPara
+44)FinFuncion

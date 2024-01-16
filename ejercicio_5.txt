@@ -1,0 +1,61 @@
+ejercicio_5
+1)Inicio
+2)    Definir
+3)    Definir limF = 3, limC = 3 como entero
+4)    Definir: matriz1[limF][limC], matriz2[limF][limC], matriz3[limF][limC] como entero
+5)
+6)    GenerarMatriz(matriz1, limF, limC)
+7)    GenerarMatriz(matriz2, limF, limC)
+8)
+9)    Escribir("La matriz 1 generada es: " + DevolverMatriz(matriz1, limF, limC))
+10)   Escribir("La matriz 2 generada es: " + DevolverMatriz(matriz2, limF, limC))
+11)
+12)   SumarMatrices(matriz1, matriz2, matriz3, limF, limC)
+13)   Escribir("La suma de las matrices es: " + DevolverMatriz(matriz3, limF, limC))
+14)
+15)   RestarMatrices(matriz1, matriz2, matriz3, limF, limC)
+16)   Escribir("La resta de las matrices es: " + DevolverMatriz(matriz3, limF, limC))
+17)
+18)   MultiplicarMatrices(matriz1, matriz2, matriz3, limF, limC)
+19)   Escribir("La multiplicación de las matrices es: " + DevolverMatriz(matriz3, limF, limC))
+20)Fin
+21)Funcion GenerarMatriz(matriz, limF, limC)
+22)    Para i desde 0 hasta limF-1 Hacer
+23)        Para j desde 0 hasta limC-1 Hacer
+24)            matriz[i][j] = EnteroAleatorioEntre(0, 9)
+25)        FinPara
+26)    FinPara
+27)FinFuncion
+28)Funcion DevolverMatriz(matriz, limF, limC)
+29)    Cadena: cadena = ""
+30)    Para i desde 0 hasta limF-1 Hacer
+31)        Para j desde 0 hasta limC-1 Hacer
+32)            cadena = cadena + (matriz[i][j])
+33)        FinPara
+34)        cadena = cadena + ""
+35)    FinPara
+36)    Retornar cadena
+37)FinFuncion
+38)Funcion SumarMatrices(matrizA, matrizB, matrizC, limF, limC)
+39)    Para i desde 0 hasta limF-1 Hacer
+40)        Para j desde 0 hasta limC-1 Hacer
+41)            matrizC[i][j] = matrizA[i][j] + matrizB[i][j]
+42)        FinPara
+43)    FinPara
+44)FinFuncion
+45)Funcion RestarMatrices(matrizA, matrizB, matrizC, limF, limC)
+46)    Para i desde 0 hasta limF-1 Hacer
+47)        Para j desde 0 hasta limC-1 Hacer
+48)            matrizC[i][j] = matrizA[i][j] - matrizB[i][j]
+49)        FinPara
+50)    FinPara
+51)FinFuncion
+52)Funcion MultiplicarMatrices(matrizA, matrizB, matrizC, limF, limC)
+53)    Para i desde 0 hasta limF-1 Hacer
+54)        Para j desde 0 hasta limC-1 Hacer
+55)            Para k desde 0 hasta limF-1 Hacer
+56)                matrizC[i][j] += matrizA[i][k] * matrizB[k][j]
+57)            FinPara
+58)        FinPara
+59)    FinPara
+60)FinFuncion

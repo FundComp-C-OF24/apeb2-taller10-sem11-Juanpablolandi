@@ -1,0 +1,42 @@
+Ejercicio_2
+1)Inicio
+2)    Escribir("INGRESE LAS OPCIONES QUE SE INDIQUEN")
+3)    Escribir("-----------------------")
+4)    Escribir("1) Área de un Cuadrado")
+5)    Escribir("2) Área de un Triángulo")
+6)    Escribir("3) Área de un Rectángulo")
+7)    Leer opcion
+8)    Segun opcion Hacer
+9)        1: CalcularAreaCuadrado()
+10)        2: CalcularAreaTriangulo()
+11)        3: CalcularAreaRectangulo()
+12)        Otro: Escribir("Opción no válida")
+13)    FinSegun
+14)Fin
+15)Funcion CalcularAreaCuadrado()
+16)    Escribir("ÁREA DE CUADRADO")
+17)    Escribir("Ingrese el lado del cuadrado:")
+18)    Leer lado
+19)    area = lado ^ 2
+20)    Escribir("El Área del Cuadrado es:", area)
+21)FinFuncion
+22)Funcion CalcularAreaTriangulo()
+23)    Escribir("ÁREA DEL TRIÁNGULO")
+24)    Escribir("Ingrese la base del triángulo:")
+25)    Leer base
+26)    Escribir("Ingrese la altura del triángulo:")
+27)    Leer altura
+28)    area = (base * altura) / 2
+29)    Escribir("El área del triángulo es:", area)
+30)FinFuncion
+31)Funcion CalcularAreaRectangulo()
+32)    Escribir("ÁREA DEL RECTÁNGULO")
+33)    Escribir("Ingrese la base del rectángulo:")
+34)    Leer base
+35)    Escribir("Ingrese la altura del rectángulo:")
+36)    Leer altura
+37)    area = base * altura
+38)    Escribir("El área del rectángulo es:", area)
+39)FinFuncion
+
+	

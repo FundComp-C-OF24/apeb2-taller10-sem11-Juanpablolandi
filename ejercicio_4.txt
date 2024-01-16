@@ -1,0 +1,50 @@
+ejercicio_4
+1)Inicio
+2)	Definicion
+3)	    Definir nombre, cedula como Cadena
+4)          Definir opcion como entero
+5)
+6)    	    Escribir("BIENVENIDO")
+7)   	    Escribir("Ingrese su nombre")
+8)    	    Leer nombre
+9)    	    Escribir("Ingrese su cédula")
+10)    	    Leer cedula
+11)    	    Escribir("-----------------")
+12)    	    Escribir("Ingrese 1 si desea calcular el valor de la Planilla de luz")
+13)    	    Escribir("Ingrese 2 si desea calcular el costo del inmueble")
+14)    	    Leer opcion
+15)    	    Escribir("-------------------------------------------------------")
+16)    	    Segun opcion Hacer
+17)        	1: CalcularPlanillaLuz(nombre, cedula)
+18)        	2: CalcularValorInmueble(nombre, cedula)
+19)        	Otro: Escribir("Opción no válida")
+20)         FinSegun
+21)Fin
+22)Funcion CalcularPlanillaLuz(nombre, cedula)
+23)    Definir costoKilovatio, consumoKilovatio, valorPlanilla como Real
+24)    Escribir("PLANILLA DE LUZ")
+25)    Escribir("Ingrese el costo del kilovatio: ")
+26)    Leer costoKilovatio
+27)    Escribir("Ingrese el número de kilovatios consumidos al mes: ")
+28)    Leer consumoKilovatio
+29)    valorPlanilla = costoKilovatio * consumoKilovatio
+30)    Escribir("==================")
+31)    Escribir("Cliente: ")
+32)    Escribir(nombre)
+33)    Escribir("Cédula: ")
+34)    Escribir(cedula)
+25)    Escribir("Usted debe cancelar: $", valorPlanilla)
+36)FinFuncion
+37)Funcion CalcularValorInmueble(nombre, cedula)
+38)    Definir valorInmueble, predio como Real
+39)    Escribir("VALOR INMUEBLE")
+40)    Escribir("Ingrese el costo del inmueble: ")
+41)    Leer valorInmueble
+42)    predio = valorInmueble * 0.02
+43)    Escribir("=============")
+44)    Escribir("Cliente: ")
+45)    Escribir(nombre)
+46)    Escribir("Cédula: ")
+47)    Escribir(cedula)
+48)    Escribir("El valor del predio es: $", predio)
+49)FinFuncion
